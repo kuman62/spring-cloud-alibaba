@@ -222,7 +222,7 @@ public class NacosDiscoveryProperties {
 	@PostConstruct
 	public void init() throws Exception {
 
-		metadata.put(PreservedMetadataKeys.REGISTER_SOURCE, "SPRING_CLOUD");
+		metadata.put(PreservedMetadataKeys.REGISTER_SOURCE, "SPRING-CLOUD");
 		if (secure) {
 			metadata.put("secure", "true");
 		}

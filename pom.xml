@@ -80,7 +80,7 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>2.1.4.RELEASE</revision>
+        <revision>2.1.4.1.RELEASE</revision>
 
         <!-- Dependency Versions -->
         <spring-cloud-commons.version>2.1.6.RELEASE</spring-cloud-commons.version>
@@ -93,13 +93,15 @@
         <spring-cloud-stream.version>Fishtown.SR4</spring-cloud-stream.version>
         <spring-cloud-zookeeper.version>2.1.4.RELEASE</spring-cloud-zookeeper.version>
 
+        <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
+
         <junit.version>4.12</junit.version>
         <javax-servlet-api>3.0</javax-servlet-api>
         <slf4j-api.version>1.7.25</slf4j-api.version>
 
         <!-- Apache Dubbo -->
-        <dubbo.version>2.7.8</dubbo.version>
-        <curator.version>4.0.1</curator.version>
+        <dubbo.version>2.7.23</dubbo.version>
+        <curator.version>4.2.0</curator.version>
 
         <!-- Apache RocketMQ -->
         <rocketmq.starter.version>2.0.2</rocketmq.starter.version>
